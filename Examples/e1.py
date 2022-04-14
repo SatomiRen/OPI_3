@@ -1,5 +1,5 @@
 # open the file2.txt in append mode. Create a new file if no such file exists.
-fileptr = open("file2.txt", "w")
+fileptr = open("file1.txt", "w")
 # appending the content to the file
 fileptr.write(
     "Python is the modern day language. It makes things so simple.\n"
