@@ -1,5 +1,5 @@
 import re
-f = open('text.txt', encoding='UTF')
+f = open('../Examples/text.txt', encoding='UTF')
 
 while True:
     line = f.readline()

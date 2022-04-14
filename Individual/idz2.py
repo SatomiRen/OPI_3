@@ -3,7 +3,7 @@
 
 
 if __name__ == "__main__":
-    with open("text.txt", "r") as file:
+    with open("../Examples/text.txt", "r") as file:
         string = " ".join(file.readlines())
     words = string.split()
     words.sort(key=len, reverse=True)
