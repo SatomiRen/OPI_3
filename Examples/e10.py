@@ -1,3 +1,3 @@
 import os
-# creating a new directory with the name new
-os.mkdir("new")
+# deleting the file named file3.txt
+os.remove("file3.txt")
